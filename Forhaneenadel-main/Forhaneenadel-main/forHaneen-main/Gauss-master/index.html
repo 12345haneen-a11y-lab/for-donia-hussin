@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gauss</title>
+  <meta name="description" content="Gauss visualisation">
+  <link rel="stylesheet" href="css/styles.css">
+</head>  
+<body>
+    <div id="input">
+      <label for="">Enter Size :</label>
+        <input type="number" id="amountOfFunctions" min="1" value="3" onchange="createIbox(this.value)"/><br><br>
+    </div>
+    <br>
+    <br>
+    <div id="iBoxes"></div>
+    <button onclick="main()" class="btn">Start Solutions</button>
+    <button onclick="destroyIbox()" style="margin-left: 20px;">reset</button>
+    <div id="oBoxes"></div>
+  
+    <div id="rBoxes"></div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

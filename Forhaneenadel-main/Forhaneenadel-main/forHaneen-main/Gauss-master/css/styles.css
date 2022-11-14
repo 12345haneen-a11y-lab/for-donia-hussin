@@ -1,0 +1,100 @@
+.matrix, .matrixth, .matrixtr, .matrixtd{
+    border: 1px solid #1b1b1b;
+    background-color: transparent;
+    color: rgb(128, 80, 134);
+    background-color: rgb(150, 154, 157);
+}
+body{
+    height: 1000px;
+    background: linear-gradient(rgba(52, 52, 52, 0.355),rgba(52, 52, 52, 0.355)),url(../夜幕微光03.gif);
+    background-position: center;
+    background-position-y:-125px ;
+    background-size:1600px 1000px;
+    background-repeat: no-repeat;
+}
+html{
+    color: aliceblue;
+    background-color: #9c76a8;
+}
+
+#iBoxes{
+    margin-left: 250px;
+    justify-content: center;
+    color: #b568cd;
+    font-size: 20px;
+}
+#iBoxes input{
+    background-color: #1b1b1b;
+    color: #9c76a8;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+/*.amountOfFunctions, .functionInformation{
+    background-color: blue;
+    border: 0px;
+    color: aliceblue;
+}*/
+#oBoxes{
+    margin-top: 70px;
+    margin-left: 230px;
+    text-align: center;
+    padding: 20px 20px;
+}
+#rBoxes{
+    margin-left: 220px;
+    text-align: center;
+    padding: 20px 30px;
+}
+#input{
+    display: grid;
+    text-align: center;
+    gap: 5px;
+    justify-content: center;
+    margin-left: -650px;
+}
+label{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:35px ;
+    margin-top: 70px;
+    color: rgb(125, 106, 251);
+    margin-left: -100px;
+}
+
+#amountOfFunctions{
+    padding: 10px;
+    background-color: #1b1b1b;
+    padding-left: 15px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 3px rgb(125, 106, 251);
+    font-size: 20px;
+    text-align: center;
+    border:1px transparent solid;
+    color:rgb(125, 106, 251);
+}
+#amountOfFunctions:hover{
+    border:1px solid darkmagenta;
+}
+button{
+    margin-left: 260px;
+    margin-top: 100px;
+    background-color: #9c76a8;
+    font-size: 20px;
+    border-radius: 70px;
+    border: none;
+    padding: 10px 30px;
+    box-shadow: #454242 2px 3px 2px;
+    color: rgb(229, 227, 224);
+    border: 1px solid transparent;
+}
+button:hover{
+    color: #9c76a8;
+    background-color: aliceblue;
+    border: 1px solid violet;
+}
+h1{
+    margin-left: -750px;
+    font-size: 25px;
+}
